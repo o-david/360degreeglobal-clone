@@ -1,16 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background: #ffffff
+    background: #ffffff;
     font-family: roboto;
 }
 nav .logo div{
-    float: left
-    colour: #570000;
-    text-transformer: uppercase;
+    float: left;
+    color: #570000;
+    text-transform: uppercase;
 }
 nav ul{
-    float: right
+    float: right;
 }
 nav ul li{
     display: inline-block;
@@ -18,6 +18,6 @@ nav ul li{
     list-style: none;
 }
 .para p{
-    color: rgb(99, 4, 4)
-    font-family: roboto;
+    color: rgb(99, 4, 4);
+    /* font-family: roboto; */
 }

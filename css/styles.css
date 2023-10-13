@@ -91,6 +91,58 @@ nav a{
         margin:0;
         font-weight: 100;
     }
+    #homeMiddle h2{
+        font-size: 30px;
+        font-weight: 100;
+    }
+    #homeMiddle{
+        margin-top: 90px;
+    }
+    .boxes img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .boxes:hover{
+        box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+
+    }
+    #box{
+        width: 80%;
+        margin: 0px auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5vh;
+    }
+    .boxes{
+        border-radius: 10px;
+    }
+    .boxes p{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    
+} 
+@media (min-width: 576px)  and (max-width: 768px) { 
+    #homeMiddle{
+        margin-top: 90px;
+    }
+    nav{
+        display: none;
+    }
+    header{
+        justify-content:center ; 
+    }
+    #homeMiddle h1{
+        font-size: 80px;
+        margin:0;
+        font-weight: 100;
+    }
+    #homeMiddle h2{
+        font-size: 30px;
+        font-weight: 100;
+    }
     .boxes img{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -122,3 +174,6 @@ nav a{
         padding:16px 30px;
     }
  } 
+
+
+ @media (min-width: 576px) and (max-width: 768px) { /* ... */ } 
